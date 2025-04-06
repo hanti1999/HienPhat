@@ -16,7 +16,7 @@ const DeleteAccount = () => {
         setResult('Đã xóa thành công!');
       }
     } catch (error) {
-      console.error('Lỗi xóa tài khoản!');
+      console.error('Lỗi xóa tài khoản!', error);
       setResult('Xóa không thành công!');
     } finally {
       setLoading(false);
