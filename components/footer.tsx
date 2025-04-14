@@ -3,7 +3,6 @@ import React from 'react';
 import cLogo from '@/assets/logoHp.png';
 import fLogo from '@/assets/Facebook.png';
 import zLogo from '@/assets/zaloLogo.png';
-import yLogo from '@/assets/youtube.png';
 import dAppStore from '@/assets/download-appstore.png';
 import dGoogle from '@/assets/download-googleplay.png';
 
@@ -31,7 +30,6 @@ const footerLinks = [
 ];
 
 const Footer = () => {
-  const year = new Date().getFullYear;
   return (
     <footer className='bg-[#f5f5f5] border-t-4 border-primary mt-5'>
       <div className='footer bg-[#f8f9fa] pb-5'>
