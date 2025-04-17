@@ -33,7 +33,7 @@ const Navbar = () => {
               Hiền Phát
             </span>
           </Link>
-          <nav className='flex flex-wrap items-center ml-0 md:ml-8 md:border-l md:pl-8'>
+          <nav className='hidden md:flex md:flex-wrap items-center ml-0 md:ml-8 md:border-l md:pl-8'>
             {NAV_LINKS.map((item, index) => (
               <Link
                 key={index}

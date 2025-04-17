@@ -130,7 +130,7 @@ const Footer = () => {
               <a
                 className='inline-block'
                 target='_blank'
-                href='https://apps.apple.com/vn/app/hi%E1%BB%81n-ph%C3%A1t/id6744238187?l=vi'
+                href='https://play.google.com/store/apps/details?id=com.nthanh99.hienphatgasnow'
               >
                 <img
                   className='w-[120px] mt-2.5 mr-2.5 mb-5'

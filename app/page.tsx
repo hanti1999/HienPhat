@@ -2,6 +2,7 @@ import Image from 'next/image';
 import img1 from '../assets/Download-app-screenshot_1.jpg';
 import img3 from '../assets/Download-app-screenshot_2.jpg';
 import img2 from '../assets/Download-app-screenshot_3.jpg';
+import DownloadCard from '@/components/download-card';
 import img from '../assets/Download-app.jpg';
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
               Sản phẩm chính hãng trong lòng bàn tay, an tâm mua sắm không lo
               hàng giả!
             </p>
+            <DownloadCard />
           </div>
         </div>
 
@@ -32,6 +34,7 @@ export default function Home() {
             <p className='text-xl lg:text-2xl mt-2'>
               Thả ga mua sắm không lo về giá với tích điểm trên mỗi đơn hàng!
             </p>
+            <DownloadCard />
           </div>
           <div>
             <Image src={img2} className='w-[240px] lg:w-[360px]' alt='points' />
@@ -54,6 +57,7 @@ export default function Home() {
               Nhận ngay 50.000đ khi tham gia tạo tài khoản thành viên tại Gas
               Hiền Phát
             </p>
+            <DownloadCard />
           </div>
         </div>
       </div>
